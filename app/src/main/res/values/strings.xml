@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ExchangeYourBook</string>
+    <string name="exchange">Exchange Book</string>
+    <array name="years">
+        <item>Prep</item>
+        <item>First</item>
+        <item>Second</item>
+        <item>Thid</item>
+        <item>Fourth</item>
+        <item>Fifth</item>
+        <item>Sixth</item>
+        <item>Seventh</item>
+    </array>
+
+    <array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+    </array>
+
+
+    <array name="status">
+        <item>Reserved</item>
+        <item>Reqested</item>
+        <item>Denied</item>
+        <item>Free</item>
+    </array>
+</resources>
