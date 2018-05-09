@@ -34,7 +34,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Add A Book"
+                android:text="Add A Wish"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textColor="@android:color/background_dark"
                 android:textSize="36sp"
@@ -53,7 +53,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Book Name"
+                    android:text="Wish Name"
                     android:textColor="@android:color/background_dark"
                     android:textSize="24sp"
                     android:textStyle="bold|italic" />
@@ -83,7 +83,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Book Statue"
+                    android:text="Wish Status"
                     android:textColor="@android:color/background_dark"
                     android:textSize="24sp"
                     android:textStyle="bold|italic" />
@@ -110,7 +110,7 @@
                 android:layout_marginRight="30dp"
                 android:layout_weight="1"
                 android:background="@android:color/background_dark"
-                android:text=" Add Book"
+                android:text=" Add Wish"
                 android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 

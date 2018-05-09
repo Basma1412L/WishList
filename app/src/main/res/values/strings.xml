@@ -20,8 +20,6 @@
 
     <array name="status">
         <item>Reserved</item>
-        <item>Reqested</item>
-        <item>Denied</item>
         <item>Free</item>
     </array>
 </resources>

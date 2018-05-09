@@ -48,13 +48,13 @@ public class searchList extends ArrayAdapter {
         View  listViewItem = inflater.inflate(R.layout.book_item_search,null,true);
 
         final   TextView txtName=(TextView)listViewItem.findViewById(R.id.bookName);
-        final  TextView txtStatus=(TextView)listViewItem.findViewById(R.id.bookStatus);
+     //   final  TextView txtStatus=(TextView)listViewItem.findViewById(R.id.bookStatus);
         Button viewProfile = (Button)listViewItem.findViewById(R.id.viewprofile);
-        Button exchange = (Button)listViewItem.findViewById(R.id.exchange);
+      //  Button exchange = (Button)listViewItem.findViewById(R.id.exchange);
         final searchItem searchItem =searchList.get(position);
 
         txtName.setText(searchItem.getUser().getName());
-        txtStatus.setText(searchItem.getSearchBookStatus());
+//        txtStatus.setText(searchItem.getSearchBookStatus());
         viewProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

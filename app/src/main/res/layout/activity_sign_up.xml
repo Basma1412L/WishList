@@ -14,11 +14,11 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginBottom="40dp"
-        android:layout_marginLeft="60dp"
+        android:layout_marginLeft="40dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="40dp"
         android:layout_weight="4"
-        android:background="?attr/colorBackgroundFloating"
+        android:background="?attr/colorControlHighlight"
         android:orientation="vertical">
 
         <LinearLayout

@@ -59,12 +59,13 @@ public class SearchBookActivity extends AppCompatActivity {
                         {
 
                             DataSnapshot ds=data.child("books");
+                            String resultName= data.child("name").getValue(String.class);
                             for (DataSnapshot dsBook: ds.getChildren()) {
                                 Book b = dsBook.getValue(Book.class);
 
                                 String book_name = b.getBook_Name();
                                 String book_status = b.getBook_Status();
-                                if(bookName_str.equals(book_name)) {
+                                if(bookName_str.equals(resultName)) {
 
                                     bookFound = true;
                                     User profileUser=data.getValue(User.class);

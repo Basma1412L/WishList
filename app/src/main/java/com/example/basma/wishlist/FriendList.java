@@ -87,7 +87,7 @@ public class FriendList extends ArrayAdapter {
                 final View displayView = inflater.inflate(R.layout.exchange_source, null);
                 dialogBuilder.setView(displayView);
                 final Spinner requested = (Spinner) displayView.findViewById(R.id.mybooks);
-                final Spinner exchanged = (Spinner) displayView.findViewById(R.id.friendbooks);
+           //     final Spinner exchanged = (Spinner) displayView.findViewById(R.id.friendbooks);
                 String selectedRequest="";
                 Button register = (Button) displayView.findViewById(R.id.doneBtn);
 
@@ -116,7 +116,7 @@ public class FriendList extends ArrayAdapter {
 
                         ArrayAdapter<String> adapter = new ArrayAdapter<String>(context, android.R.layout.simple_spinner_item, arraySpinner);
                         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-                        exchanged.setAdapter(adapter);
+                       // exchanged.setAdapter(adapter);
 
 
                         int size2 = searchList.size();

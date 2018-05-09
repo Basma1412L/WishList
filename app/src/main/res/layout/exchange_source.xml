@@ -17,7 +17,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginTop="40dp"
         android:layout_weight="4"
-        android:background="?attr/colorBackgroundFloating"
+        android:background="?attr/colorControlHighlight"
         android:orientation="vertical">
 
 
@@ -37,7 +37,7 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Exchange Request"
+                android:text="Reserve Wish"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textColor="@android:color/background_dark"
                 android:textSize="36sp"
@@ -57,7 +57,7 @@
                     android:layout_gravity="center"
                     android:layout_weight="2"
                     android:gravity="center"
-                    android:text="Requested Book"
+                    android:text="Requested Wish"
                     android:textColor="@android:color/background_dark"
                     android:textSize="24sp"
                     android:textStyle="bold|italic" />
@@ -73,36 +73,6 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_marginTop="20dp"
-                android:layout_weight="2"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/email"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_weight="2"
-                    android:gravity="center"
-                    android:text="Exchanged Book"
-                    android:textColor="@android:color/background_dark"
-                    android:textSize="24sp"
-                    android:textStyle="bold|italic" />
-
-
-                <Spinner
-                    android:id="@+id/friendbooks"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_weight="2" />
-
-
-            </LinearLayout>
-
 
             <Button
                 android:id="@+id/doneBtn"
@@ -113,7 +83,7 @@
                 android:layout_marginRight="30dp"
                 android:layout_weight="1"
                 android:background="@android:color/background_dark"
-                android:text="Request!"
+                android:text="Reserve!"
                 android:textColor="@android:color/background_light"
                 android:textSize="24sp" />
 
